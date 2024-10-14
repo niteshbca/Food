@@ -331,3 +331,75 @@ header {
     padding-top: 4rem;
   }
 }
+
+
+
+/* Default styles (for large screens) */
+.home-text h1 {
+    font-size: 3rem;
+}
+.home-text h2 {
+    font-size: 2rem;
+}
+.home-img img {
+    width: 650px;
+    height: 650px;
+}
+.card img {
+    width: 350px;
+    height: 350px;
+}
+
+/* For medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    .home-text h1 {
+        font-size: 2.5rem;
+    }
+    .home-text h2 {
+        font-size: 1.8rem;
+    }
+    .home-img img {
+        width: 450px;
+        height: 450px;
+    }
+    .card img {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+/* For small devices (phones, 576px and up) */
+@media (max-width: 576px) {
+    .home-text h1 {
+        font-size: 2rem;
+    }
+    .home-text h2 {
+        font-size: 1.5rem;
+    }
+    .home-img img {
+        width: 350px;
+        height: 350px;
+    }
+    .card img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+/* For extra-small devices (phones, less than 576px) */
+@media (max-width: 400px) {
+    .home-text h1 {
+        font-size: 1.5rem;
+    }
+    .home-text h2 {
+        font-size: 1.2rem;
+    }
+    .home-img img {
+        width: 250px;
+        height: 250px;
+    }
+    .card img {
+        width: 150px;
+        height: 150px;
+    }
+}
